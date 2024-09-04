@@ -48,11 +48,11 @@ afterEvaluate {
         publications {
             create<MavenPublication>("maven") {
                 groupId = "com.example"
-                artifactId = "mylabrary"
+                artifactId = "my_custom_view_library"
                 version = "1.0.1"
 
                 from(components["release"])
             }
-        }// 'com.example:mylabrary:1.0.1'
+        }// 'com.example:my_custom_view_library:1.0.1'
     }
 }
