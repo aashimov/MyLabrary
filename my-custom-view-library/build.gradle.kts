@@ -49,7 +49,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "com.example"
                 artifactId = "my_custom_view_library"
-                version = "1.0.1"
+                version = "1.0.5"
 
                 from(components["release"])
             }
