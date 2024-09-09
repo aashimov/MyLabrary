@@ -46,7 +46,7 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("maven") {
+            register<MavenPublication>("maven") {
                 groupId = "com.example"
                 artifactId = "my_custom_view_library"
                 version = "1.0.5"
